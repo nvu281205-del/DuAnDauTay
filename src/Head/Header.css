@@ -1,0 +1,45 @@
+.title{
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    gap: 5px;
+}
+.title span{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.title img{
+    width: 20px;
+    height: 20px;
+}
+.headerfirst {
+    padding:20px;
+    background-color: #305ace;
+    display: flex;
+    justify-content: space-between;
+}
+.nav {
+    display: flex;
+    gap: 10px;
+}
+.left{
+    display:flex;
+    align-items: center;
+}
+.left span{
+    margin-top: 5px;
+    color:white;
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;   
+}
+.left button {
+    cursor: pointer;
+    color: rgb(191, 186, 186);
+    font-size: 30px;
+    border: none;
+    background:none;
+}
+.left button:hover{
+    color:white;
+}

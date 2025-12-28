@@ -1,12 +1,9 @@
+import Header from "./Head/Header";
 
-import './App.css'
-
-function App() {
+export default function App(){
   return (
     <>
-     
+      <Header/>
     </>
   )
 }
-
-export default App
